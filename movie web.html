@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color:black;
+    }
+    .movie{
+        margin: 10px 0 0 200px;
+        width: 70%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 0;
+    }
+    .movie img{
+        width: 10%;
+        height: 50%;
+        border: 2px solid gray;
+        border-radius: 10px;
+        object-fit: cover;
+        transition: all ease-in-out 0.5s;
+    }
+    .movie img:hover{
+        width: 15%;
+    }
+    button{
+        background-color: rgb(191, 252, 22);
+        width: 12%;
+        height: 35px;
+        border-radius: 14px;
+        margin: -40% 0 0 45%;
+        font-weight: bold ;
+        border: none;
+    }
+    .navbar{
+        overflow: hidden;
+        background-color: black
+        
+    }
+    .navbar a{
+        float: inline-end;
+        color: White;
+        text-decoration: none;
+        padding: 8px;
+        text-align: center;
+        transition: all ease-in-out 0.5s;
+        justify-content: space-evenly;
+    }
+    .navbar a:hover{
+        width: 10%;
+        background-color: yellow;
+        border-radius: 5px;
+        color: black;
+        font-weight: bold;        
+    }
+</style>
+<body>
+    <header>
+
+    </header>
+    <article>
+        <div class = "container">
+            <div class = "card">
+                <div class="movie">
+                    <img src="img/avanger.jpeg">
+                    <img src="img/kor.jpg">
+                    <img src="img/outsider.jpg">
+                    <img src="img/the be.jpeg">
+                </div>
+                <button>WATCH NOW</button>
+            </div>    
+        </div>
+    </article>
+    <footer>
+        <div class = navbar>
+            <a href="">Home</a>
+            <a href="">movie</a>
+            <a href="">TV series</a>
+            <a href="">More</a>
+        </div>  
+    </footer>
+</body>
+</html>

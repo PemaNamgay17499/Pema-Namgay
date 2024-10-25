@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img{
+        width: 10%;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    #userbox{
+        margin-left: 80px;
+    }
+    #password{
+        margin-left: 80px;
+    }
+    .button{
+        margin-left: 80px;
+        margin-top: 17px;
+        background-color: blue;
+        color: white;
+        border: none;
+        width: 50px;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .button:hover{
+        background-color: black;
+    }
+    a{
+        margin-left: 170px;
+        margin-top: 200px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    hr{
+        width: auto;
+        margin-right: 950px;
+
+    }
+    h1{
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    .ac{ margin-left: 48px;
+        margin-top: 8px;
+        border: 1px solid black;
+        width: auto;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 11px;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+    .o{
+        width: 100%;
+        margin-right: 950px;
+        margin-top: 18px;
+    }
+    .lan{
+        font-size: 13px;
+        margin-left: 48px;
+    }
+    .lan select{
+        width: 75px;
+        height: 15px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .cok{
+        width: auto;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 11px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+    .container{
+        background-color: white;
+        margin-right: 75%;
+        height: 450px;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <div class = "container">
+        <div class = "vlebox"></div>
+        <img src="img/logo-removebg-preview-1-qg5devo52uwuyqukpeopqu2f6kqdtxid5uwrcbganc.png" alt="logo">
+        <label for="userbox"></label>
+        <input type="text" name="stdusername" id="userbox" placeholder="Username" required>
+        <br>
+        <br>
+        <label for="password"></label>
+        <input type="text" name="stdpassword" id="password" placeholder="password" required>
+        <br>
+        <button class = "button">Login</button>
+        <br>
+    <a href="#">Forgot password?</a>
+    <hr>
+    <h1>Some course may allow guest access</h1>
+    <button class = "ac">Acces Guest only</button>
+    <hr class = "o">
+    <div class = "lan"> 
+        <label for="lanBox">Language:</label> 
+        <select id="lanBox" name="langtype"  form="language"> 
+            <option value="English">English</option> 
+            <option value="Dzongkha">Dzongkha</option> 
+            <option value="Hindi">Hindi</option>  
+        </select> 
+        <button class = "cok">cokies notice</button>
+    </div> 
+</div>
+    
+ </body>
+</html>
